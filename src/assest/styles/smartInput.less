@@ -1,0 +1,30 @@
+@charset 'utf-8';
+@import 'variable';
+@import '../fonts/icomoon/style.css';
+
+.smart-form-input{
+    // 占满form盒子的100%宽度
+    width:100%;
+    height: 42px;
+    line-height: 40px;
+    background-color: transparent;
+    border: 1px solid @fontColor;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    .smart-form-icon{
+        width: 15%;
+        color: @fontColor;
+        font-size: 22px;
+        position: relative;
+        top: 4px;
+    }
+    .smart-form-input{
+        width: 85%;
+        height: 40px;
+        border: none;
+        outline: none;
+        color: @fontColor;
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,44 @@
+@charset 'utf-8';
+@import 'variable';
+
+// 注册页面样式
+.registerPage{
+    height: 100%;
+    background-color: @bkColor;
+    .registerForm{
+        background-color: @fontColor;
+        margin-bottom: 14px;
+    }
+}
+
+//协议复选框
+.protocol-check{
+    margin: 0 auto;
+    width: 90%;
+    text-align: left;
+    .register-checkbox{
+        width: 24px;
+        height: 24px;
+        border: 1px solid rgb(118, 118, 118);
+        color: rgb(118, 118, 118);
+        position: relative;
+        top: 7px;
+    }
+    .register-checkbox-txt{
+        padding-left: 10px;
+        color: rgb(118, 118, 118);
+        font-size: 16px;
+    }
+}
+
+
+
+.register-next-step{
+    width:90%;
+    height: 40px;
+    color: @fontColor;
+    background-color: @blueColor;
+    border: 1px solid @fontColor;
+    border-radius: 7px;
+    margin-top: 10px;
+}
